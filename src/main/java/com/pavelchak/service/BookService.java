@@ -1,7 +1,7 @@
 package com.pavelchak.service;
 
-import com.pavelchak.Repository.BookRepository;
-import com.pavelchak.Repository.PersonRepository;
+import com.pavelchak.repository.BookRepository;
+import com.pavelchak.repository.PersonRepository;
 import com.pavelchak.domain.Book;
 import com.pavelchak.domain.Person;
 import com.pavelchak.exceptions.ExistsPersonForBookException;

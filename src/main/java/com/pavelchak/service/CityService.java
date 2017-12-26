@@ -1,7 +1,7 @@
 package com.pavelchak.service;
 
-import com.pavelchak.Repository.CityRepository;
-import com.pavelchak.Repository.PersonRepository;
+import com.pavelchak.repository.CityRepository;
+import com.pavelchak.repository.PersonRepository;
 import com.pavelchak.domain.City;
 import com.pavelchak.exceptions.ExistsPersonsForCityException;
 import com.pavelchak.exceptions.NoSuchCityException;

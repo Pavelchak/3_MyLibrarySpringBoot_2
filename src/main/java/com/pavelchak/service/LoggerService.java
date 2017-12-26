@@ -1,6 +1,6 @@
 package com.pavelchak.service;
 
-import com.pavelchak.Repository.LoggerRepository;
+import com.pavelchak.repository.LoggerRepository;
 import com.pavelchak.domain.Logger;
 import com.pavelchak.exceptions.NoSuchLogException;
 import org.springframework.beans.factory.annotation.Autowired;

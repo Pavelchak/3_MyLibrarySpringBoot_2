@@ -5,6 +5,12 @@ import java.util.Set;
 
 @Entity
 @Table(name = "person")
+//@NamedQuery(name = "Person.getPersonsBySurname2", query = "SELECT p FROM Person p WHERE p.surname = ?1")
+
+@NamedQueries({
+        @NamedQuery(name = "Person.getPersonsBySurname2", query = "SELECT p FROM Person p WHERE p.surname = ?1"),
+        @NamedQuery(name = "Person.getPersonsByEmail", query = "SELECT p FROM Person p WHERE p.email = :email"),
+})
 public class Person {
     @Id  @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "person_id", nullable = false)

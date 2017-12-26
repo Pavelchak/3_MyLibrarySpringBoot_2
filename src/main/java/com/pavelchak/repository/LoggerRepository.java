@@ -1,4 +1,4 @@
-package com.pavelchak.Repository;
+package com.pavelchak.repository;
 
 import com.pavelchak.domain.Logger;
 import org.springframework.data.jpa.repository.JpaRepository;
